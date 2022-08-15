@@ -7,4 +7,10 @@ class ImageAssets{
   static const String buddies = "$IMAGE_PATH/buddies.png";
   static const String appreciation = "$IMAGE_PATH/appreciation.png";
 
+
+  static const String onboarding_image_1 = "$IMAGE_PATH/onboarding_image_1.svg";
+  static const String onboarding_image_2 = "$IMAGE_PATH/onboarding_image_2.svg";
+  static const String onboarding_image_3 = "$IMAGE_PATH/onboarding_image_3.svg";
+
+
 }

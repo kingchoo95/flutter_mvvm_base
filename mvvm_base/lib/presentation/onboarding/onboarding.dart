@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:mvvm_base/presentation/resources/assets_manager.dart';
 import 'package:mvvm_base/presentation/resources/color_manager.dart';
 import 'package:mvvm_base/presentation/resources/value_manager.dart';
@@ -30,6 +31,7 @@ class _OnboardingViewState extends State<OnboardingView> {
     return Scaffold(
       backgroundColor: ColorManager.white,
       appBar: AppBar(
+        backgroundColor: ColorManager.white,
         elevation: AppSize.s1_5,
         systemOverlayStyle: SystemUiOverlayStyle(
           statusBarColor: ColorManager.white,
@@ -46,14 +48,16 @@ class _OnboardingViewState extends State<OnboardingView> {
         },
         itemBuilder: (context, index){
           // return _list[index];
+          return OnboardingPage(_list[index]);
         },
       ),
+      // bottomSheet: ,
     );
   }
 }
 
 class OnboardingPage extends StatelessWidget {
-  SliderObject _sliderObject;
+  final SliderObject _sliderObject;
   OnboardingPage(this._sliderObject, {Key? key}) : super(key: key);
 
   @override
@@ -61,7 +65,7 @@ class OnboardingPage extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
-        SizedBox(height: AppSize.s40),
+        const SizedBox(height: AppSize.s40),
         Padding(
           padding: const EdgeInsets.all(AppPadding.p8),
           child: Text(_sliderObject.title,
@@ -76,7 +80,8 @@ class OnboardingPage extends StatelessWidget {
             style: Theme.of(context).textTheme.subtitle1,
           ),
         ),
-        const SizedBox(height: AppSize.s60,)
+        const SizedBox(height: AppSize.s60,),
+        SvgPicture.asset(_sliderObject.image)
       ],
     );
   }
