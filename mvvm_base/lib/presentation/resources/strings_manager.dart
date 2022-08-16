@@ -12,4 +12,6 @@ class StringConstant{
   static const String onBoardingSubTitle3 = "Sub-title 3";
   static const String onBoardingSubTitle4 = "Sub-title 4";
   static const String onBoardingSubTitle5 = "Sub-title 5";
+
+  static const String skip = "Skip";
 }

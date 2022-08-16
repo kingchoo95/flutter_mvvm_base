@@ -51,7 +51,23 @@ class _OnboardingViewState extends State<OnboardingView> {
           return OnboardingPage(_list[index]);
         },
       ),
-      // bottomSheet: ,
+      bottomSheet: Container(
+        color: ColorManager.white,
+        height: AppSize.s100,
+        child: Column(
+          children: [
+            Align(
+              alignment: Alignment.centerRight,
+              child:
+              TextButton(
+                onPressed: (){
+
+                },
+                child: const Text(StringConstant.skip, textAlign: TextAlign.end,),),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
@@ -70,14 +86,14 @@ class OnboardingPage extends StatelessWidget {
           padding: const EdgeInsets.all(AppPadding.p8),
           child: Text(_sliderObject.title,
             textAlign: TextAlign.center,
-            style: Theme.of(context).textTheme.headline1,
+            style: Theme.of(context).textTheme.headline2,
           ),
         ),
         Padding(
           padding: const EdgeInsets.all(AppPadding.p8),
           child: Text(_sliderObject.subTitle,
             textAlign: TextAlign.center,
-            style: Theme.of(context).textTheme.subtitle1,
+            style: Theme.of(context).textTheme.headline1,
           ),
         ),
         const SizedBox(height: AppSize.s60,),

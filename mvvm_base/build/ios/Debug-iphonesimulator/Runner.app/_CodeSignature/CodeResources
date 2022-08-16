@@ -82,7 +82,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		CI0cv8C034nS3ZQH0AARCW3jKTc=
+		mHYh+kIlxOoi/nEmoVjvco5YhO8=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		RrWgxNgSJDdoVBQE6KySlwgo1x0=
+		o+WY+gEKR5IaTYAqlsZG+Ig7H4g=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		fDP1tLTB58JUBr8BAeyL87DjKVI=
+		gQUDr7UaQHgXf5eab4qkgTrNF6Y=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		V54PuspQCKVRO+pJ/jbACwy28zg=
+		V94/rvT/2ttwl7N6bn0NwCBc7h8=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		iPexya5T+ZHvRVqGidKhSs+Iegc=
+		Ee6tgMnNtw/YemY7OZtAJrrwaPA=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/asset/fonts/Montserrat-Bold.ttf</key>
 		<data>
@@ -180,6 +180,18 @@
 		<data>
 		RJMO4Y2FWk1CFDWRDhiWWScslYY=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/asset/images/onboarding_image_1.svg</key>
+		<data>
+		HPsnMULboozD/iSBcY+rZv2J4Rk=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/asset/images/onboarding_image_2.svg</key>
+		<data>
+		cWrVjzQW+2Gtgc17t832/deL2FE=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/asset/images/onboarding_image_3.svg</key>
+		<data>
+		7fJ2/a2BO7FZx9iRs0QEkt0CKHI=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/asset/images/pure_love.png</key>
 		<data>
 		1P9tyg0UCpPkb9t0lDkkxTgHRoo=
@@ -198,7 +210,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		2AuLdUjf35kELiLxRLZK1WNddN8=
+		nNC88caaxZVcK2vuIfizrO5jWbU=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -210,7 +222,7 @@
 		</data>
 		<key>Frameworks/Flutter.framework/Flutter</key>
 		<data>
-		2NsEdxlzCEzO/kp/4rqT8xea1rQ=
+		nyN8NFzVwKb67TpQRgdQVD4NlBU=
 		</data>
 		<key>Frameworks/Flutter.framework/Headers/Flutter.h</key>
 		<data>
@@ -294,7 +306,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Z92yKWOYvFwoc0r7mGNT760G4v8=
+		rMcq5LdNmoxB5ORPkK8tbsWrX4k=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -440,7 +452,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u/RaO0kOPXH20CQlEG5LveSLxumi6GNuNn/SThB7kmo=
+			stAS+Um8qVjZm0ZeONdweFS67hBOfK+UO3ZEX2aajbY=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -489,7 +501,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CIggxrlALKqCGRU8TucjxBhW9DitAWmvk3Mg6nRg+IM=
+			PJ4VIUyIDURGbPlswUgU2oTMT/Qc1RlVYzOZbkaM1x8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -503,14 +515,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TV4whlk3pxJfQSuxV+naViv6dMxuCIR+smisBxg6xyA=
+			O8F2Dl9vNMBTDWhMKxT+iwDdyG2YCXJCpBzWIwxdHc4=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VD5bMLzxEg8MRAgV0c1ovLQH1mjTh4QWC1EmRrPbHYQ=
+			UA0uydT7kFKUZNJ661YLIALtm+bePRr7m/ocKV0sBRc=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -524,7 +536,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q06/MabRYawEK7oGqvTt2TbKAxsf6v10ZZw/Hk1YvVA=
+			sJp5P0jxWsdoimedgX2Mut5AbonZnCtCn9COuY7fBLA=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/asset/fonts/Montserrat-Bold.ttf</key>
@@ -611,6 +623,27 @@
 			sgI5MuKoiD+5aDxeJpLaLR9TepY7vHGFMxQMg+zniIg=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/asset/images/onboarding_image_1.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			j/9BPdT3LxKSHaORCBKEAXAujN10yUL4REHNQF0Abp0=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/asset/images/onboarding_image_2.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ga6nADjjxVqsQsb8/w375FFDhtXf5Pz1YCjXluHFh2I=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/asset/images/onboarding_image_3.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			siEGPlrZEyQcQXpibS3+cMpVCx5d30sVXHBZi4oFsjY=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/asset/images/pure_love.png</key>
 		<dict>
 			<key>hash2</key>
@@ -643,7 +676,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JbwdF4I1DCmTVuWYTI1clgG1co9VYZZqn1SknXJ85JM=
+			FmyKEqp9B4IaKfthF/v/7KkL0QaLSYnUrFis3LHLEb4=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -664,7 +697,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IcmciBTyXORanPS0KPXqFkqpHXpldkhXsnzuto+u/5o=
+			7u3e2O3X4tGPRyQmgk5cVTI0Yv5EDYa9jIpp+JZ1MKA=
 			</data>
 		</dict>
 		<key>Frameworks/Flutter.framework/Headers/Flutter.h</key>
