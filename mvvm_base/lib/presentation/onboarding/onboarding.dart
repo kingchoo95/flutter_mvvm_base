@@ -65,10 +65,79 @@ class _OnboardingViewState extends State<OnboardingView> {
                 },
                 child: const Text(StringConstant.skip, textAlign: TextAlign.end,),),
             ),
+            _getBottomSheetWidget(),
           ],
         ),
       ),
     );
+  }
+  Widget _getBottomSheetWidget(){
+    return Container(
+      color: ColorManager.primary,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(AppPadding.p14),
+            child: GestureDetector(
+              child: const SizedBox(
+                height: AppSize.s20,
+                width: AppSize.s20,
+                child: Icon(Icons.chevron_left),
+              ),
+              onTap: (){
+                _pageController.animateToPage(_getPreviousIndex(), duration: const Duration(milliseconds: DurationConstant.d300), curve: Curves.bounceInOut);
+              },
+            ),
+          ),
+          Row(
+            children: [
+              for(int i = 0; i < _list.length; i++)
+                Padding(
+                  padding: EdgeInsets.all(AppPadding.p8),
+                  child: _getProperCircle(i),
+                )
+            ],
+          ),
+          Padding(
+            padding: const EdgeInsets.all(AppPadding.p14),
+            child: GestureDetector(
+              child: const SizedBox(
+                height: AppSize.s20,
+                width: AppSize.s20,
+                child: Icon(Icons.chevron_right),
+              ),
+              onTap: (){
+                _pageController.animateToPage(_getNextIndex(), duration: const Duration(milliseconds: DurationConstant.d300), curve: Curves.bounceInOut);
+              },
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _getProperCircle(int index){
+    if(index == _currentIndex){
+      return const Icon(Icons.circle);
+    }else{
+      return const Icon(Icons.circle_outlined);
+    }
+}
+
+  int _getPreviousIndex(){
+    int previousIndex = _currentIndex --;
+    if(previousIndex == -1){
+      _currentIndex = _list.length -1;
+    }
+    return _currentIndex;
+  }
+  int _getNextIndex(){
+    int nextIndex = _currentIndex ++;
+    if(nextIndex >= _list.length){
+      _currentIndex = 0;
+    }
+    return _currentIndex;
   }
 }
 
@@ -97,6 +166,7 @@ class OnboardingPage extends StatelessWidget {
           ),
         ),
         const SizedBox(height: AppSize.s60,),
+        Image.asset(_sliderObject.image),
         SvgPicture.asset(_sliderObject.image)
       ],
     );
