@@ -5,7 +5,7 @@ import 'package:mvvm_base/presentation/onboarding/onboarding_view_model.dart';
 import 'package:mvvm_base/presentation/resources/color_manager.dart';
 import 'package:mvvm_base/presentation/resources/value_manager.dart';
 
-import '../../domain/model.dart';
+import '../../domain/model/model.dart';
 import '../resources/strings_manager.dart';
 
 class OnboardingView extends StatefulWidget {

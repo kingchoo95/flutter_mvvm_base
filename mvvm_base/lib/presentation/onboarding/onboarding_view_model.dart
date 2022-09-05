@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:mvvm_base/presentation/base/baseViewModel.dart';
 
-import '../../domain/model.dart';
+import '../../domain/model/model.dart';
 import '../resources/assets_manager.dart';
 import '../resources/strings_manager.dart';
 
